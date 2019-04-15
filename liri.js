@@ -3,7 +3,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var omdb = (keys.omdb);
 var bandsintown = (keys.bandsintown);
-var request = require('request');
+var request = require("request");
 var fs = require("fs");
 var moment = require('moment');
 
