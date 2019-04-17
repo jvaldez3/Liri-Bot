@@ -1,9 +1,13 @@
 # Liri-Bot
 
 concert-this	uses the bandsintown API to take a band name from the user and returns that bands next concert
+
 spotify-this	uses the spotify API to take a song name from the user and returns the artist, song name, spotify-link and album
+
 movie-this	uses the OMDB API to take a movie name and returns the name, cast, release year, IMDB and Rotten Tomatoes rating, country of origin, language and plot
+
 do-this	uses the built in readFile() method to access data from a prepopulated .txt file and return its information as a command/search query.
+
 
 Before you get started, make sure you have these node packages installed:
 
@@ -48,6 +52,6 @@ Function takes the userInput (command) and the userQuery(song), and returns titl
 
 <See photos folder for examples on this working>
 
-do-this
+do-this <command>
 
-This function will randomly select one of the functions and produce a search.
+This function will run whatever is in the random.txt file
