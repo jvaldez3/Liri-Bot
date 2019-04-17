@@ -1,12 +1,12 @@
 # Liri-Bot
 
-concert-this	uses the bandsintown API to take a band name from the user and returns that bands next concert
+concert-this--uses the bandsintown API to take a band name from the user and returns that bands next concert
 
-spotify-this	uses the spotify API to take a song name from the user and returns the artist, song name, spotify-link and album
+spotify-this--uses the spotify API to take a song name from the user and returns the artist, song name, spotify-link and album
 
-movie-this	uses the OMDB API to take a movie name and returns the name, cast, release year, IMDB and Rotten Tomatoes rating, country of origin, language and plot
+movie-this--uses the OMDB API to take a movie name and returns the name, cast, release year, IMDB and Rotten Tomatoes rating, country of origin, language and plot
 
-do-this	uses the built in readFile() method to access data from a prepopulated .txt file and return its information as a command/search query.
+do-this--uses the built in readFile() method to access data from a prepopulated .txt file and return its information as a command/search query.
 
 
 Before you get started, make sure you have these node packages installed:
@@ -15,7 +15,7 @@ Dotenv: Dotenv is a zero-dependency module that loads environment variables from
 
 Command Line: 'npm install dotenv'
 
-Request: - Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
+Request: Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
 
 Command Line: 'npm install request'
 

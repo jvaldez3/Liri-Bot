@@ -58,7 +58,7 @@ function spotifyThisSong() {
     console.log(`\nSEARCHING FOR..."${userQuery}"`);
 
     if (!userQuery) {
-        userQuery = "the sign ace of base"
+        userQuery = "quit playing games backstreet boys"
     };
     spotify.search({
         type: 'track',
@@ -89,7 +89,9 @@ function concertThis() {
             if (userBand.length > 0) {
                 for (i = 0; i < 1; i++) {
 
-                    console.log(`\nArtist: ${userBand[i].lineup[0]} \nVenue: ${userBand[i].venue.name}\nVenue Location: ${userBand[i].venue.latitude},${userBand[i].venue.longitude}\nVenue City: ${userBand[i].venue.city}, ${userBand[i].venue.country}`)
+                    console.log(`\nArtist: ${userBand[i].lineup[0]} \nVenue: ${userBand[i].venue.name}\n
+                    Venue Location: ${userBand[i].venue.latitude},${userBand[i].venue.longitude}\n
+                    Venue City: ${userBand[i].venue.city}, ${userBand[i].venue.country}`)
 
                     var concertDate = moment(userBand[i].datetime).format("MM/DD/YYYY hh:00 A");
                     console.log(`Date and Time: ${concertDate}\n`);
